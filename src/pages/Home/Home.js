@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 import NewsCard from "../../components/Card/Card";
@@ -10,20 +11,13 @@ import "./home.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { newsSlider } from "../../mockData/categories";
-import { latestNews } from "../../mockData/categories";
-import { techNews } from "../../mockData/categories";
-import { pakNews } from "../../mockData/categories";
+import { newsSlider, newsList } from "../../mockData/categories";
 
 function Home() {
-  return (
-    <div>
-      <FeaturedNews />
-    </div>
-  );
-}
+  const latestNews = newsList.filter((item) => item.type === "latest");
+  const techNews = newsList.filter((item) => item.type === "technology");
+  const pakNews = newsList.filter((item) => item.type === "pakistan");
 
-function FeaturedNews() {
   const settings = {
     arrows: false,
     autoplay: true,
@@ -51,17 +45,19 @@ function FeaturedNews() {
       </div>
       <Section className="latest-news" heading="Sidebar">
         <div className="latest-news-wrapper">
-            {latestNews.map((latest, index) => {
+          {latestNews.map((latest, index) => {
             return (
+              <Link to={"/news-details/" + latest.id}>
                 <NewsCard
-                    class="news-card"
-                    imgPath={latest.imgUrl}
-                    caption={latest.caption}
-                    date={latest.date}
-                    time={latest.time}
+                  class="news-card"
+                  imgPath={latest.imgUrl}
+                  caption={latest.caption}
+                  date={latest.date}
+                  time={latest.time}
                 />
+              </Link>
             );
-            })}
+          })}
         </div>
       </Section>
 
@@ -69,14 +65,16 @@ function FeaturedNews() {
         <div className="pakistan-news-wrapper">
           {latestNews.map((latest, index) => {
             return (
-              <NewsCard
-                class="news-card"
-                imgPath={latest.imgUrl}
-                caption={latest.caption}
-                date={latest.date}
-                time={latest.time}
-                type="vertical"
-              />
+              <Link to={"/news-details/" + latest.id}>
+                <NewsCard
+                  class="news-card"
+                  imgPath={latest.imgUrl}
+                  caption={latest.caption}
+                  date={latest.date}
+                  time={latest.time}
+                  type="vertical"
+                />
+              </Link>
             );
           })}
         </div>
@@ -86,14 +84,16 @@ function FeaturedNews() {
         <div className="technology-list">
           {techNews.map((tech, index) => {
             return (
-              <NewsCard
-                class="news-card"
-                imgPath={tech.imgUrl}
-                caption={tech.caption}
-                date={tech.date}
-                time={tech.time}
-                type="vertical"
-              />
+              <Link to={"/news-details/" + tech.id}>
+                <NewsCard
+                  class="news-card"
+                  imgPath={tech.imgUrl}
+                  caption={tech.caption}
+                  date={tech.date}
+                  time={tech.time}
+                  type="vertical"
+                />
+              </Link>
             );
           })}
         </div>
@@ -103,14 +103,16 @@ function FeaturedNews() {
         <div className="sports-list-wrapper">
           {pakNews.map((pak, index) => {
             return (
-              <NewsCard
-                class="news-card"
-                imgPath={pak.imgUrl}
-                caption={pak.caption}
-                date={pak.date}
-                time={pak.time}
-                type="vertical"
-              />
+              <Link to={"/news-details/" + pak.id}>
+                <NewsCard
+                  class="news-card"
+                  imgPath={pak.imgUrl}
+                  caption={pak.caption}
+                  date={pak.date}
+                  time={pak.time}
+                  type="vertical"
+                />
+              </Link>
             );
           })}
         </div>
