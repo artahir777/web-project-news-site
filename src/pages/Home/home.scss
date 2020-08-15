@@ -1,0 +1,113 @@
+@import "../../styles/colors.scss";
+@import "../../styles/common.scss";
+
+.homepage-wrapper {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    grid-template-areas: "carousel latest-news"
+                        "pakistan latest-news"
+                        "technology technology"
+                        "sports sports";
+    max-width: 1170px;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+
+    @media (max-width: 600px) {
+        grid-template-columns: 100%;
+        grid-template-areas: "carousel"
+                            "latest-news"
+                            "pakistan"
+                            "technology"
+                            "sports";
+    }
+    
+    .carousel {
+        grid-area: carousel;
+        border: $border-light;
+        margin:30px;
+        margin-bottom: 50px;
+        height: auto;
+        width: 100%;
+        justify-self: center;
+    
+        .slick-arrow{
+            box-shadow: $shadow;
+        }
+
+        .news-card {
+            @media(max-width: 600px) {
+                flex-direction: column;
+            }
+        }
+    }
+
+    .latest-news {
+        grid-area: latest-news;
+
+        .news-card {
+            img {
+                max-width: 100px;
+                height: 70px;
+                object-fit: contain;
+            }
+        }
+
+        .latest-news-wrapper {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .pakistan-news {
+        grid-area: pakistan;
+
+        .pakistan-news-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 30px;
+
+            @media ( max-width: 600px) {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+    .technology-wrapper {
+        grid-area: technology;
+
+        .technology-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 30px;
+            
+            @media ( max-width: 600px) {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .news-card {
+            img {
+                max-width: 270px;
+                max-height: 150px;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .sports-wrapper {
+        grid-area: sports;
+
+        .sports-list-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-column-gap: 30px;
+
+            @media ( max-width: 600px) {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}
+

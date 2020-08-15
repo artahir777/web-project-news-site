@@ -1,0 +1,36 @@
+@import './colors.scss';
+
+@font-face{
+    font-family: 'Exo';
+    src: url(Exo-VariableFont_wght.ttf);
+}
+
+
+
+// Length values
+
+$len-small: 60px;
+$len-med: 200px;
+$len-large: 300px;
+
+// font-sizes
+
+$font-small: 11px;
+$font-med: 15px;
+$font-large: 20px;
+$font-max: 26px;
+
+.news-caption{
+    a{
+        color: $darker;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:hover{
+        color: $green;
+    }
+}
+
+.date-time{
+    color: $moderate;
+}

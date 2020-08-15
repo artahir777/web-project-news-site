@@ -1,0 +1,7 @@
+@import  "../../styles/colors.scss";
+@import "../../styles/common.scss";
+
+.grid-two-with-sidebar{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}

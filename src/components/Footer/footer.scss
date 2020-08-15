@@ -1,0 +1,21 @@
+@import "../../styles/colors.scss";
+@import "../../styles/common.scss";
+
+.Footer{
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    background-color: $darker;
+    color: $light;
+    vertical-align: middle;
+
+    .copyright{
+        margin: 20px;
+        display: inline-block;
+    }
+
+    .logo{
+        display: inline-block;
+    }
+
+}

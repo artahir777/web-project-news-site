@@ -1,0 +1,32 @@
+@import  "../../styles/colors.scss";
+@import "../../styles/common.scss";
+.news-card {
+    display: flex;
+
+    &.column {
+        flex-direction: column;
+    }
+
+    .news-card-inner-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+
+        .news-caption {
+            margin: 10px;
+        }
+
+    }
+
+    .date-time {
+        font-size: $font-med;
+    }
+    
+    img
+    {
+        max-width: 100%;
+        height: inherit;
+    }
+    
+}

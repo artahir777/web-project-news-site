@@ -1,0 +1,48 @@
+
+@import '../../styles/colors.scss';
+
+
+
+.news-logo{
+    height: fit-content;
+    background-color: $lighter;
+    margin: 0px;
+    
+    img{
+        margin-left: 10px;
+        max-width: 80px;
+        height: auto;
+    }
+
+
+}
+
+.navbar{
+    position: sticky;
+    list-style-type: none;
+    background-color: $light;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
+    
+    li{
+        display: flex;
+    }
+
+    a{
+        color: $dark;
+        background-color: $light;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    a:hover{
+        color: $darker;
+        background-color: $lighter;
+    }
+
+}
