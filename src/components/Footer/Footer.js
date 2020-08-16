@@ -7,7 +7,8 @@ function Footer(props) {
     return (
         <div class = "Footer" >
             <div class = "copyright" >
-            <p  >COPYRIGHT 2020. Reproduction of this website's content without express written permission from 'Daily Pakistan' is strictly prohibited.</p>
+            <p  >COPYRIGHT &copy; 2020. Reproduction of this website's content
+                 without express written permission from this site is strictly prohibited.</p>
             </div>
             <div class = "logo" >
             <p  >Powered By: Abdul Rehman TahiR</p>
