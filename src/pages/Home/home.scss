@@ -31,10 +31,8 @@
         height: auto;
         width: 100%;
         justify-self: center;
-    
-        .slick-arrow{
-            box-shadow: $shadow;
-        }
+        
+        
 
         .news-card {
             @media(max-width: 600px) {

@@ -1,0 +1,29 @@
+@import  "../../styles/colors.scss";
+@import "../../styles/common.scss";
+
+.news-detail-wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+    .article-heading{
+        margin: 10px 0;
+        
+    }
+
+    .banner-image{
+        margin: 30px;
+        width: 60%;
+        height: auto;
+    }
+
+    .date-time{
+        font-size: $font-small;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .article-content{
+        display: inline-block;
+        width: 80%;
+        margin-bottom: 5px;
+    }
+}

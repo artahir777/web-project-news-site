@@ -51,6 +51,7 @@ export const newsSlider = [
 
 export const latestNews = [
   {
+    
     imgUrl: "/images/pics/algo.png",
     caption: "Lorem ipsum dolor amit sitt",
     date: "12/12/2020",

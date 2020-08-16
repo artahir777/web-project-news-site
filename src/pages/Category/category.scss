@@ -1,7 +1,24 @@
 @import  "../../styles/colors.scss";
 @import "../../styles/common.scss";
 
-.grid-two-with-sidebar{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+.categories-wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    .section-heading {
+        p {
+            text-transform: capitalize;
+        }
+    }
+
+    .category-grid{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+
+        @media ( max-width: 600px) {
+            grid-template-columns: 1fr;
+        }
+    }
 }

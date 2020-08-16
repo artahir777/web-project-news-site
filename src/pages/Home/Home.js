@@ -33,7 +33,7 @@ function Home() {
         <Slider {...settings}>
           {newsSlider.map((sliderItem, index) => {
             return (
-              <NewsCard
+              <NewsCard class="news-carousel"
                 imgPath={sliderItem.imgUrl}
                 caption={sliderItem.caption}
                 date={sliderItem.date}

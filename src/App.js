@@ -33,7 +33,7 @@ function App() {
       </BrowserRouter>
       {/* <Home /> */}
       {/* <Category/> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
