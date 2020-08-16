@@ -4,6 +4,7 @@
 .Footer{
     height: 50px;
     width: 100%;
+    position: relative;
     bottom: 0;
     background-color: $darker;
     color: $light;
@@ -16,6 +17,7 @@
 
     .logo{
         display: inline-block;
+        margin-left: 50px;
     }
 
 }

@@ -6,8 +6,12 @@ function Footer(props) {
 
     return (
         <div class = "Footer" >
-            <p class = "copyright" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, cum.</p>
-            <p class = "logo" >Logo</p>
+            <div class = "copyright" >
+            <p  >COPYRIGHT 2020. Reproduction of this website's content without express written permission from 'Daily Pakistan' is strictly prohibited.</p>
+            </div>
+            <div class = "logo" >
+            <p  >Powered By: Abdul Rehman TahiR</p>
+            </div>
         </div>
     );
 
