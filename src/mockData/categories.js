@@ -1,24 +1,24 @@
 export const newsSlider = [
   {
-    imgUrl: "/images/pics/oops.png",
+    imgUrl: "/images/pics/001.jpg",
     caption: "Lorem Ipsum Dolor emit Siem Colon",
     date: "11/12/2013",
     time: "11:10am",
   },
   {
-    imgUrl: "/images/pics/oops.png",
+    imgUrl: "/images/pics/002.jpg",
     caption: "Lorem Ipsum Dolor emit Siem Colon",
     date: "11/12/2013",
     time: "11:10am",
   },
   {
-    imgUrl: "/images/pics/oops.png",
+    imgUrl: "/images/pics/003.jpg",
     caption: "Lorem Ipsum Dolor emit Siem Colon",
     date: "11/12/2013",
     time: "11:10am",
   },
   {
-    imgUrl: "/images/pics/oops.png",
+    imgUrl: "/images/pics/004.jpg",
     caption: "Lorem Ipsum Dolor emit Siem Colon",
     date: "11/12/2013",
     time: "11:10am",
@@ -28,25 +28,25 @@ export const newsSlider = [
 export const latestNews = [
   {
     
-    imgUrl: "/images/pics/algo.png",
+    imgUrl: "/images/pics/005.jpg",
     caption: "Lorem ipsum dolor amit sitt",
     date: "12/12/2020",
     time: "04:20PM",
   },
   {
-    imgUrl: "/images/pics/algo.png",
+    imgUrl: "/images/pics/006.jpg",
     caption: "Lorem ipsum dolor amit sitt",
     date: "12/12/2020",
     time: "04:20PM",
   },
   {
-    imgUrl: "/images/pics/algo.png",
+    imgUrl: "/images/pics/007.jpg",
     caption: "Lorem ipsum dolor amit sitt",
     date: "12/12/2020",
     time: "04:20PM",
   },
   {
-    imgUrl: "/images/pics/algo.png",
+    imgUrl: "/images/pics/008.jpg",
     caption: "Lorem ipsum dolor amit sitt",
     date: "12/12/2020",
     time: "04:20PM",
@@ -57,7 +57,7 @@ export const newsList = [
   {
       id: 'tech1',
     type: "technology",
-    imgUrl: "/images/pics/ICT.jpg",
+    imgUrl: "/images/pics/009.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
@@ -72,7 +72,7 @@ export const newsList = [
   {
     id: 'tech2',
     type: "technology",
-    imgUrl: "/images/pics/ICT.jpg",
+    imgUrl: "/images/pics/010.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
@@ -87,7 +87,7 @@ export const newsList = [
   {
     id: 'tech3',
     type: "technology",
-    imgUrl: "/images/pics/ICT.jpg",
+    imgUrl: "/images/pics/011.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
@@ -102,7 +102,7 @@ export const newsList = [
   {
     id: 'tech4',
     type: "technology",
-    imgUrl: "/images/pics/ICT.jpg",
+    imgUrl: "/images/pics/012.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
@@ -117,7 +117,7 @@ export const newsList = [
   {
     id: 'latest1',
     type: "latest",
-    imgUrl: "/images/pics/ICT.jpg",
+    imgUrl: "/images/pics/013.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
@@ -132,7 +132,7 @@ export const newsList = [
   {
     id: 'latest2',
     type: "latest",
-    imgUrl: "/images/pics/ICT.jpg",
+    imgUrl: "/images/pics/014.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
@@ -147,7 +147,7 @@ export const newsList = [
   {
     id: 'latest3',
     type: "latest",
-    imgUrl: "/images/pics/ICT.jpg",
+    imgUrl: "/images/pics/015.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
@@ -162,7 +162,7 @@ export const newsList = [
   {
     id: 'latest4',
     type: "latest",
-    imgUrl: "/images/pics/ICT.jpg",
+    imgUrl: "/images/pics/016.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
@@ -177,7 +177,7 @@ export const newsList = [
   {
     id: 'pakistan1',
     type: "pakistan",
-    imgUrl: "/images/pics/os.jpg",
+    imgUrl: "/images/pics/017.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
@@ -192,7 +192,7 @@ export const newsList = [
   {
     id: 'pakistan2',
     type: "pakistan",
-    imgUrl: "/images/pics/os.jpg",
+    imgUrl: "/images/pics/018.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
@@ -207,7 +207,7 @@ export const newsList = [
   {
     id: 'pakistan3',
     type: "pakistan",
-    imgUrl: "/images/pics/os.jpg",
+    imgUrl: "/images/pics/019.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
@@ -222,7 +222,7 @@ export const newsList = [
   {
     id: 'pakistan4',
     type: "pakistan",
-    imgUrl: "/images/pics/os.jpg",
+    imgUrl: "/images/pics/020.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
@@ -241,7 +241,7 @@ export const newsList = [
   {
     id: 'sports-1',
     type: "sports",
-    imgUrl: "/images/pics/sem4.jpg",
+    imgUrl: "/images/pics/021.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
@@ -255,7 +255,7 @@ export const newsList = [
   {
     id: 'sports-2',
     type: "sports",
-    imgUrl: "/images/pics/sem4.jpg",
+    imgUrl: "/images/pics/022.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
@@ -269,7 +269,7 @@ export const newsList = [
   {
     id: 'sports-3',
     type: "sports",
-    imgUrl: "/images/pics/sem4.jpg",
+    imgUrl: "/images/pics/023.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
@@ -283,7 +283,7 @@ export const newsList = [
   {
     id: 'sports-4',
     type: "sports",
-    imgUrl: "/images/pics/sem4.jpg",
+    imgUrl: "/images/pics/024.jpg",
     caption: "These are the tech news",
     date: "12/12/2020",
     time: "04:20PM",
